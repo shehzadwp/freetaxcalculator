@@ -8,6 +8,7 @@ import ServiceWorkerRegister from '@/components/ui/ServiceWorkerRegister';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { siteConfig } from '@/lib/config/siteConfig';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -121,6 +122,7 @@ export default function RootLayout({
           <Footer />
           <CookieConsent />
           <ServiceWorkerRegister />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
