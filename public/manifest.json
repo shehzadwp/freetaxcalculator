@@ -1,0 +1,23 @@
+{
+  "name": "FreeTaxCalculator.us",
+  "short_name": "FreeTaxCalculator.us",
+  "description": "Free USA tax calculators, updated with current IRS guidance. Estimate your take-home pay, taxes, and savings instantly.",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e3a8a",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}
