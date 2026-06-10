@@ -90,6 +90,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
+        {/* Revbid Script */}
+        <Script
+          src="//prebid.revbid.net/15298/revbid.js"
+          strategy="afterInteractive"
+          async
+        />
+
         {googleAnalyticsId && (
           <>
             <Script

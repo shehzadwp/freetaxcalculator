@@ -152,6 +152,15 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
+      {/* --- REVBID ADS SECTION (Top) --- */}
+      <section className="py-6 bg-white dark:bg-slate-950">
+        <div className="container-max container-px flex flex-col items-center gap-4">
+          <div data-placement-id="revbid-big-leaderboard" id="revbid-big-leaderboard-5168" style={{ minWidth: '468px', minHeight: '60px', textAlign: 'center' }} />
+          <div data-placement-id="revbid-leaderboard" id="revbid-leaderboard-8632" style={{ minWidth: '468px', minHeight: '60px', textAlign: 'center' }} />
+          <div data-placement-id="revbid-square" id="revbid-square-13372" style={{ minWidth: '300px', minHeight: '250px', textAlign: 'center' }} />
+        </div>
+      </section>
+
       <section className="bg-gradient-to-br from-blue-50 via-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 py-16 md:py-24">
         <div className="container-max container-px grid gap-12 lg:grid-cols-[1.2fr_0.9fr] items-center">
           <div className="space-y-6">
