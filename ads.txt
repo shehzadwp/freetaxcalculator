@@ -1,5 +1,6 @@
 ownerdomain=freetaxcalculator.us
 managerdomain=revbid.net
+google.com, pub-6274849473716814, DIRECT, f08c47fec0942fa0
 revbid.net, 15298, DIRECT
 # RevBid + Adagio
 adagio.io, 1397, RESELLER
