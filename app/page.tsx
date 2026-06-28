@@ -376,6 +376,17 @@ Remove this comment block to enable all RevBid ads again.
         </div>
       </section>
 
+       <!-- BIG LEADERBOARD AD (970x90) -->
+    <div
+      data-placement-id="revbid-big-leaderboard"
+      id="revbid-big-leaderboard-5168"
+      style={{
+        minWidth: '468px',
+        minHeight: '60px',
+        textAlign: 'center',
+      }}
+    />
+
       <NewsletterSignup />
 
       <section className="py-12 md:py-16 bg-gray-50 dark:bg-slate-900">
