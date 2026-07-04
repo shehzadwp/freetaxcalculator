@@ -152,16 +152,14 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
-     {
-===========================================================
-REVBID ADS SECTION (DISABLED)
-Remove this comment block to enable all RevBid ads again.
-===========================================================
+    {/* ===========================================================
+   REVBID ADS SECTION (ACTIVE)
+   =========================================================== */}
 
 <section className="py-6 bg-white dark:bg-slate-950">
   <div className="container-max container-px flex flex-col items-center gap-4">
 
-    <!-- BIG LEADERBOARD AD (970x90) -->
+    {/* BIG LEADERBOARD AD (970x90) */}
     <div
       data-placement-id="revbid-big-leaderboard"
       id="revbid-big-leaderboard-5168"
@@ -172,7 +170,7 @@ Remove this comment block to enable all RevBid ads again.
       }}
     />
 
-    <!-- LEADERBOARD AD (728x90) -->
+    {/* LEADERBOARD AD (728x90) */}
     <div
       data-placement-id="revbid-leaderboard"
       id="revbid-leaderboard-8632"
@@ -183,7 +181,7 @@ Remove this comment block to enable all RevBid ads again.
       }}
     />
 
-    <!-- MEDIUM RECTANGLE AD (300x250) -->
+    {/* MEDIUM RECTANGLE AD (300x250) */}
     <div
       data-placement-id="revbid-square"
       id="revbid-square-13372"
@@ -196,8 +194,6 @@ Remove this comment block to enable all RevBid ads again.
 
   </div>
 </section>
-
-}
 
       <section className="bg-gradient-to-br from-blue-50 via-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 py-16 md:py-24">
         <div className="container-max container-px grid gap-12 lg:grid-cols-[1.2fr_0.9fr] items-center">
