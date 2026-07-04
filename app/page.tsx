@@ -152,7 +152,7 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
-     {/*
+     {
 ===========================================================
 REVBID ADS SECTION (DISABLED)
 Remove this comment block to enable all RevBid ads again.
@@ -197,7 +197,7 @@ Remove this comment block to enable all RevBid ads again.
   </div>
 </section>
 
-*/}
+}
 
       <section className="bg-gradient-to-br from-blue-50 via-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 py-16 md:py-24">
         <div className="container-max container-px grid gap-12 lg:grid-cols-[1.2fr_0.9fr] items-center">
