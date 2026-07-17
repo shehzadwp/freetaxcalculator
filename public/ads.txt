@@ -238,7 +238,7 @@ loopme.com, 11576, RESELLER
 themediagrid.com, uot45z, RESELLER
 tagoras.io, 78f0cb3041f91df7f6eeea7c7178fffc, RESELLER
 appnexus.com, 15623, reseller, f5ab79cb980f11d1
-RevBid + AMXR
+# RevBid + AMXR
 inventorypartnerdomain=admixer.net
 admixer.net, 5ec6caad-1374-4898-b09d-06f75d78bcc0, DIRECT
 inmobi.com, 61d733c3779d43e590c51c8bc078e10c, RESELLER, 83e75a7ae333ca9d
@@ -757,3 +757,11 @@ sharethrough.com,4284,RESELLER,d53b998a7bd4ecd2
 seedtag.com,69849fd5adf28a0008bc0458,RESELLER
 ogury.com,534c7459-fba8-48b1-82d1-9a6c008551ea,RESELLER
 insticator.com,33982127-4b91-4d23-9273-e18b7738b70f,RESELLER,b3511ffcafb23a32
+# RevBid + ProgrammaticX
+programmaticx.ai, 656777, DIRECT, b42d42eb28400efa
+targetbetter.com, T6777, DIRECT
+triplelift.com, 14800, RESELLER, 6c33edb13117fd86
+video.unrulymedia.com, 640018708, RESELLER, 98c21ef9a666c68b
+appnexus.com, 15774, RESELLER
+triplelift.com, 14716, RESELLER, 6c33edb13117fd86
+themediagrid.com, 8ZRKBE, RESELLER
