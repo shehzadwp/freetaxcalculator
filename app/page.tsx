@@ -152,15 +152,47 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
-   {/*
+ {/*
 ===========================================================
 REVBID ADS SECTION (ACTIVE)
 ===========================================================
 
+BIG LEADERBOARD AD (970x90)
+<div
+  data-placement-id="revbid-big-leaderboard"
+  id="revbid-big-leaderboard-5168"
+  style={{
+    minWidth: '468px',
+    minHeight: '60px',
+    textAlign: 'center',
+  }}
+/>
+
+LEADERBOARD AD (728x90)
+<div
+  data-placement-id="revbid-leaderboard"
+  id="revbid-leaderboard-8632"
+  style={{
+    minWidth: '468px',
+    minHeight: '60px',
+    textAlign: 'center',
+  }}
+/>
+
+MEDIUM RECTANGLE AD (300x250)
+<div
+  data-placement-id="revbid-square"
+  id="revbid-square-13372"
+  style={{
+    minWidth: '300px',
+    minHeight: '250px',
+    textAlign: 'center',
+  }}
+/>
+
 <section className="py-6 bg-white dark:bg-slate-950">
   <div className="container-max container-px flex flex-col items-center gap-4">
 
-    {/* BIG LEADERBOARD AD (970x90) */}
     <div
       data-placement-id="revbid-big-leaderboard"
       id="revbid-big-leaderboard-5168"
@@ -171,7 +203,6 @@ REVBID ADS SECTION (ACTIVE)
       }}
     />
 
-    {/* LEADERBOARD AD (728x90) */}
     <div
       data-placement-id="revbid-leaderboard"
       id="revbid-leaderboard-8632"
@@ -182,7 +213,6 @@ REVBID ADS SECTION (ACTIVE)
       }}
     />
 
-    {/* MEDIUM RECTANGLE AD (300x250) */}
     <div
       data-placement-id="revbid-square"
       id="revbid-square-13372"
