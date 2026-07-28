@@ -152,9 +152,10 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
-    {/* ===========================================================
-   REVBID ADS SECTION (ACTIVE)
-   =========================================================== */}
+   {/*
+===========================================================
+REVBID ADS SECTION (ACTIVE)
+===========================================================
 
 <section className="py-6 bg-white dark:bg-slate-950">
   <div className="container-max container-px flex flex-col items-center gap-4">
@@ -194,6 +195,11 @@ export default function Home() {
 
   </div>
 </section>
+
+===========================================================
+END REVBID ADS SECTION
+===========================================================
+*/}
 
       <section className="bg-gradient-to-br from-blue-50 via-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 py-16 md:py-24">
         <div className="container-max container-px grid gap-12 lg:grid-cols-[1.2fr_0.9fr] items-center">
