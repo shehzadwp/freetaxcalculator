@@ -152,7 +152,6 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
- {
 {/* ===========================
     REVBID ADS SECTION (ACTIVE)
    =========================== */}
