@@ -153,46 +153,13 @@ export default function Home() {
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
  {
-===========================================================
-REVBID ADS SECTION (ACTIVE)
-===========================================================
-
-BIG LEADERBOARD AD (970x90)
-<div
-  data-placement-id="revbid-big-leaderboard"
-  id="revbid-big-leaderboard-5168"
-  style={{
-    minWidth: '468px',
-    minHeight: '60px',
-    textAlign: 'center',
-  }}
->
-
-LEADERBOARD AD (728x90)
-<div
-  data-placement-id="revbid-leaderboard"
-  id="revbid-leaderboard-8632"
-  style={{
-    minWidth: '468px',
-    minHeight: '60px',
-    textAlign: 'center',
-  }}
->
-
-MEDIUM RECTANGLE AD (300x250)
-<div
-  data-placement-id="revbid-square"
-  id="revbid-square-13372"
-  style={{
-    minWidth: '300px',
-    minHeight: '250px',
-    textAlign: 'center',
-  }}
->
-
+{/* ===========================
+    REVBID ADS SECTION (ACTIVE)
+   =========================== */}
 <section className="py-6 bg-white dark:bg-slate-950">
   <div className="container-max container-px flex flex-col items-center gap-4">
 
+    {/* REVBID BIG LEADERBOARD AD (970x90) */}
     <div
       data-placement-id="revbid-big-leaderboard"
       id="revbid-big-leaderboard-5168"
@@ -203,6 +170,7 @@ MEDIUM RECTANGLE AD (300x250)
       }}
     />
 
+    {/* REVBID LEADERBOARD AD (728x90) */}
     <div
       data-placement-id="revbid-leaderboard"
       id="revbid-leaderboard-8632"
@@ -213,6 +181,7 @@ MEDIUM RECTANGLE AD (300x250)
       }}
     />
 
+    {/* REVBID MEDIUM RECTANGLE AD (300x250) */}
     <div
       data-placement-id="revbid-square"
       id="revbid-square-13372"
@@ -225,12 +194,9 @@ MEDIUM RECTANGLE AD (300x250)
 
   </div>
 </section>
-
-===========================================================
-END REVBID ADS SECTION
-===========================================================
-*/}
-
+{/* ===========================
+    END REVBID ADS SECTION
+   =========================== */}
       <section className="bg-gradient-to-br from-blue-50 via-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 py-16 md:py-24">
         <div className="container-max container-px grid gap-12 lg:grid-cols-[1.2fr_0.9fr] items-center">
           <div className="space-y-6">
