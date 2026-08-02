@@ -152,7 +152,7 @@ export default function Home() {
     <div className="safe-area">
       <JsonLd data={[organizationSchema(), siteLinksSearchBoxSchema()]} />
 
- {/*
+ {
 ===========================================================
 REVBID ADS SECTION (ACTIVE)
 ===========================================================
@@ -166,7 +166,7 @@ BIG LEADERBOARD AD (970x90)
     minHeight: '60px',
     textAlign: 'center',
   }}
-/>
+>
 
 LEADERBOARD AD (728x90)
 <div
@@ -177,7 +177,7 @@ LEADERBOARD AD (728x90)
     minHeight: '60px',
     textAlign: 'center',
   }}
-/>
+>
 
 MEDIUM RECTANGLE AD (300x250)
 <div
@@ -188,7 +188,7 @@ MEDIUM RECTANGLE AD (300x250)
     minHeight: '250px',
     textAlign: 'center',
   }}
-/>
+>
 
 <section className="py-6 bg-white dark:bg-slate-950">
   <div className="container-max container-px flex flex-col items-center gap-4">
