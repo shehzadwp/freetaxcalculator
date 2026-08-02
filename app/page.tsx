@@ -196,6 +196,7 @@ export default function Home() {
 {/* ===========================
     END REVBID ADS SECTION
    =========================== */}
+      
       <section className="bg-gradient-to-br from-blue-50 via-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 py-16 md:py-24">
         <div className="container-max container-px grid gap-12 lg:grid-cols-[1.2fr_0.9fr] items-center">
           <div className="space-y-6">
